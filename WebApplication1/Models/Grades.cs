@@ -9,11 +9,6 @@ namespace WebApplication1.Models
 {
     public class Grades
     {
-        [Key]//这个特性是 Primary key 他是主键约束
-        public int Id { get; set; }
-
-        [StringLength(255)] //这个是设定字符串长度
-        [Column(TypeName ="varchar")]
-        public string Title { get; set; }
+        //对公司不满,删库跑路
     }
 }
